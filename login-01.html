@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <br>
+    
+    <h1>Pruebita de mdn wb docs</h1>
+    <button>Start machine</button>
+    <p>The machine is stopped.</p>
+
+    <br>
+    <br>
+
+
+    <h1>Nuevo por aca! Registrese por favor</h1>
+    <form action="#" novalidate>
+        <div>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="name" placeholder="John" autofocus required><br>
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="apellido" name="apellido" placeholder="Snow" required><br>
+            <label for="email">Direccion email: </label>
+            <input type="email" id="email" name="email" placeholder="john.snow@winterfell.com" required><br>
+            <label for="password">Contrasena: </label>
+            <input type="password" id="password" name="password" required><br>
+            <label for="passwordVerif">Repita su contrasena: </label>
+            <input type="password" id="passwordVerif" name="passwordVerif" required><br>
+            <input type="checkbox" id="acepto" name="acepto" required> Acepto los terminos y condiciones<br>
+            <button type="registrarme">Registrarme</button>
+        </div>
+    </form>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+    <h1>Es bueno volver a vernos! Ingrese con su usuario y contrasena</h1>
+    <form action="#" name="formLogin">
+        <div>
+            <label for="username">Usuario :</label>
+            <input type="text" id="username" name="username" placeholder="Ingrese usuario">
+            <br>
+            <label for="password">Contrasena :</label>
+            <input type="password" id="password" placeholder="Ingrese Contrasena" name="password">
+            <br>
+            <button type="submit">Iniciar</button>
+            <input type="checkbox" checked="checked"> Recordarme
+            <button type="button">Cancelar</button>
+            Olvido su <a href="#">Contrasena</a>
+            <!-- <input type="reset"> -->
+        </div>
+         
+        <!-- <form>  
+            <div class="container">   
+                <label>Username : </label>   
+                <input type="text" placeholder="Enter Username" name="username" required>  
+                <label>Password : </label>   
+                <input type="password" placeholder="Enter Password" name="password" required>  
+                <button type="submit">Login</button>   
+                <input type="checkbox" checked="checked"> Remember me   
+                <button type="button" class="cancelbtn"> Cancel</button>   
+                Forgot <a href="#"> password? </a>   
+            </div>   
+        </form>      -->
+
+    </form>
+    <br>
+    <br>
+    <form>
+        <input type="button" id="btn01" value="OK">
+        <p>Click the "Disable" button to disable de OK button:</p>
+        <button onclick="disableElement()">Disable</button>
+    </form>
+
+    <script src="./js/login-01.js"></script>
+</body>
+</html>
